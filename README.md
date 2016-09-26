@@ -1,2 +1,2 @@
-# Introduction-to-query
+# Introduction-to-Jquery
 My firsts steps on Jquery
