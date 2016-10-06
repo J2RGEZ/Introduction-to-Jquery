@@ -87,7 +87,7 @@ section#bloque1{
 	width:100%;
 	height:650px;
 	background: url(../img/back01.jpg);
-	background-size: cover; 
+	background-size: cover;
 }
 
 #totti{
@@ -176,7 +176,7 @@ nav#botonesGrupo{
 	height: 40px;
 	background: linear-gradient(#004e8a, #001);
 	border-radius:14px;
-	border:2px solid white; 
+	border:2px solid white;
 }
 
 nav#botonesGrupo ul li{
@@ -225,7 +225,7 @@ BLOQUE 03
 section#bloque3{
 	position: relative;
 	margin: 0px auto;
-	top:-150px;
+	top:-200px;
 	width:100%;
 	height:550px;
 	background:rgba(0,0,0,0);
@@ -234,7 +234,7 @@ section#bloque3{
 #estadios{
 	position: relative;
 	margin: auto;
-	top: 100px;
+	top: 20px;
 	width: 900px;
 	height: 450px;
 	border:5px solid white;
@@ -254,7 +254,7 @@ BLOQUE 04
 section#bloque4{
 	position: relative;
 	margin: 0px auto;
-	top:-100px;
+	top:-200px;
 	width:900px;
 	height:650px;
 	background:rgba(0,0,0,0);
@@ -292,11 +292,12 @@ BLOQUE 05
 section#bloque5{
 	position: relative;
 	margin: -300px auto;
+	margin-bottom: 0;
 	top:50px;
 	width:100%;
 	height:750px;
 	background: url(../img/back03.png);
-	background-size: cover; 
+	background-size: cover;
 }
 
 input[type="search"]{
@@ -324,16 +325,16 @@ input[type="search"]{
 	top:-50px;
 }
 
-#calendario::-webkit-scrollbar{ 
-	background:rgba(0,0,0,0);  
+#calendario::-webkit-scrollbar{
+	background:rgba(0,0,0,0);
 }
 
 #calendario::-webkit-scrollbar-button{
- 	background:rgba(0,50,100,.5);  
+ 	background:rgba(0,50,100,.5);
 }
 
-#calendario::-webkit-scrollbar-thumb{ 
-	background:rgba(0,50,100,.5); 
+#calendario::-webkit-scrollbar-thumb{
+	background:rgba(0,50,100,.5);
 }
 
 
@@ -401,5 +402,3 @@ section#bloque5 input[type="email"]{
 	color: #333;
 	text-transform: none;
 }
-
-
