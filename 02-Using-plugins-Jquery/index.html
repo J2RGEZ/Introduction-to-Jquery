@@ -6,10 +6,12 @@
 
 		<link rel="icon" href="img/icono.png">
 		<link rel="stylesheet" href="css/estilo.css" media="">
+		<link rel="stylesheet" href="css/cssFlexSlider/flexslider.css" media="">
 		<script src="js/jquery-3.0.0.min.js"></script>
 		<script src="js/plugins/animatescroll.js" charset="utf-8"></script>
 		<script src="js/plugins/jquery.scrollUp.js" charset="utf-8"></script>
 		<script src="js/plugins/jquery.easing.js" charset="utf-8"></script>
+		<script src="js/plugins/jquery.flexslider.js" charset="utf-8"></script>
 	</head>
 
 	<body>
@@ -86,13 +88,25 @@
 				<section id="bloque3">
 
 					<div id="estadios">
-
-							<img src="img/slide01.jpg" alt="">
-							<img src="img/slide02.jpg" alt="">
-							<img src="img/slide03.jpg" alt="">
-							<img src="img/slide04.jpg" alt="">
-							<img src="img/slide05.jpg" alt="">
-
+							<div class="flexslider">
+									<ul class="slides">
+											<li>
+												<img src="img/slide01.jpg" alt="">
+											</li>
+											<li>
+												<img src="img/slide02.jpg" alt="">
+											</li>
+											<li>
+												<img src="img/slide03.jpg" alt="">
+											</li>
+											<li>
+												<img src="img/slide04.jpg" alt="">
+											</li>
+											<li>
+												<img src="img/slide05.jpg" alt="">
+											</li>
+									</ul>
+							</div>
 					</div>
 
 				</section>
@@ -317,5 +331,6 @@
     <script src="js/scrollParallax.js" charset="utf-8"></script>
 		<script src="js/scrollAnimado.js" charset="utf-8"></script>
 		<script src="js/animacionGrupos.js" charset="utf-8"></script>
+		<script src="js/slide.js" charset="utf-8"></script>
 	</body>
 </html>
