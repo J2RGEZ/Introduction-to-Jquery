@@ -3,5 +3,5 @@ $("ul#galeria li a").fancybox({
   closeEffect: "elastic",
   openSpeed: 150,
   closeSpeed: 150,
-  helpers: {title: type()}
+  helpers: {title: {type: "inside"}}
 });
