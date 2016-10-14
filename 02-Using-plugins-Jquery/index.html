@@ -15,10 +15,16 @@
 		<script src="js/plugins/jquery.flexslider.js" charset="utf-8"></script>
 		<script src="js/plugins/jquery.fancybox.js" charset="utf-8"></script>
 		<script src="js/plugins/jquery.dataTables.min.js" charset="utf-8"></script>
+		<script src="js/plugins/jquery-migrate-1.4.1.min.js" charset="utf-8"></script>
 	</head>
 
 	<body>
-
+		<div id="preload">
+			<p id="porcentajeCarga">0%</p>
+			<div id="fondoCarga"></div>
+			<div id="rellenoCarga"></div>
+			<div id="estado"></div>
+		</div>
 		<div id="contenedor">
 
 			<!--Bloque 0-->
@@ -330,6 +336,12 @@
 
 		</div>
 
+		<img src="img/back00.jpg" style="display:none"/>
+		<img src="img/back01.jpg" style="display:none"/>
+		<img src="img/back02.png" style="display:none"/>
+		<img src="img/back03.png" style="display:none"/>
+
+		<script src="js/cargador.js" charset="utf-8"></script>
 		<script src="js/mouseParallax.js"></script>
     <script src="js/scrollParallax.js" charset="utf-8"></script>
 		<script src="js/scrollAnimado.js" charset="utf-8"></script>
