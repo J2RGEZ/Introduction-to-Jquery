@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Administrador de Tareas</title>
+
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<script src="js/jquery-3.0.0.min.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>ADMINISTRADOR DE TAREAS</h1>
+
+  <button id="agregarTarea">AGREGAR TAREA</button>
+
+  <form id="agregar">
+    
+    <input type="date" placeholder="Fecha de la tarea" required>
+    <input type="text" placeholder="Título de la tarea" maxlength="20" required>
+    <textarea type="text" placeholder="Descripción de la tarea" maxlength="56" required></textarea>
+    <input type="submit" value="GUARDAR TAREA">
+
+  </form>
+
+  <form id="buscarTarea">
+
+    <input type="date" placeholder="Buscar Tarea por fecha" required>
+    <input type="submit" value="BUSCAR TAREA">
+
+  </form>
+
+</header>
+
+<ul class="columnas">
+ 
+  <li class="bloque">
+    <div class="titulo">Feeds <span class="eliminar">X</span></div>
+    <div class="fecha">03/08/2016</div>
+    <div class="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div> 
+  </li>
+ 
+  <li class="bloque">
+    <div class="titulo">News <span class="eliminar">X</span></div>
+    <div class="fecha">03/08/2016</div>
+    <div class="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+  </li>
+ 
+  <li class="bloque">
+    <div class="titulo">Shopping <span class="eliminar">X</span></div>
+    <div class="fecha">03/08/2016</div>
+    <div class="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+  </li>
+ 
+  <li class="bloque">
+    <div class="titulo">Links <span class="eliminar">X</span></div>
+    <div class="fecha">03/08/2016</div>
+    <div class="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+  </li>
+ 
+  <li class="bloque">
+    <div class="titulo">Images <span class="eliminar">X</span></div>
+    <div class="fecha">03/08/2016</div>
+    <div class="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+  </li>
+
+  <li class="bloque">
+    <div class="titulo">Work <span class="eliminar">X</span></div>
+    <div class="fecha">03/08/2016</div>
+    <div class="contenido">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+  </li>
+ 
+</ul>
+
+<script src="js/codigo.js"></script>	
+
+</body>
+</html>
