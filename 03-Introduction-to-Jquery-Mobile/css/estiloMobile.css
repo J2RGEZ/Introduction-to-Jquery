@@ -1,0 +1,19 @@
+.header{
+  background: url(../img/back00.jpg);
+  background-size: cover;
+}
+
+.contenido{
+  height: auto;
+  background: url(../img/back01b.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
+.contenido h3{
+  text-align: center;
+}
+
+.contenido p{
+  text-align: center;
+}

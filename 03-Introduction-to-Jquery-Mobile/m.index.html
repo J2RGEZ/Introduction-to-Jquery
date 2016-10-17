@@ -1,10 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>UEFA CHAMPIONS LEAGUE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<link rel="icon" href="img/icono.png">
+	<link rel="stylesheet" href="JqueryMobile/css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/estiloMobile.css">
+	<script src="JqueryMobile/js/jquery-1.11.1.min.js"></script>
+	<script src="JqueryMobile/js/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-	
+
+	<!-- Page 1-->
+	<div data-role="page" data-theme="b" id="inicio">
+		<div data-role="header" class="header">
+			<a href="#botoneraOculta1" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+			<h1><img src="img/logo.png" alt="Uefa Champions" width=70%/></h1>
+			<a href="#inicio" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+		</div>
+
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#grupos" data-icon="grid" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-icon="location" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-icon="eye" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-icon="calendar" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+		<div role="main" class="ui-content contenido">
+			<h3>¡SUSCRIBETE!</h3>
+			<p>Sigue las noticias de la Uefa Champions y mantente actualizado</p>
+			<form action="">
+				<input type="email" data-theme="a" placeholder="Ingresa tu email" required>
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+
+		<div data-role="footer">
+			<h4>&copy; 2016 | Todos los derechos reservados</h4>
+		</div>
+
+		<div data-role="panel" id="botoneraOculta1" data-display="overlay">
+			<ul data-role="listview">
+				<li data-icon="delete"><a href="#" data-rel="close">Cerrar</a></li>
+				<li><a href="#grupos" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Page 2-->
+	<div data-role="page" data-theme="b" id="grupos">
+		<div data-role="header" class="header">
+			<a href="#botoneraOculta2" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+			<h1><img src="img/logo.png" alt="Uefa Champions" width=70%/></h1>
+			<a href="#inicio" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+		</div>
+
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#grupos" data-icon="grid" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-icon="location" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-icon="eye" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-icon="calendar" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+		<div role="main" class="ui-content">
+			<div data-role="collapsibleset" data-theme="b" data-content-theme="a">
+				<div data-role="collapsible" data-collapsed="false">
+					<h3>GRUPO A</h3>
+					<p><img src="img/GrupoA.png" alt="Grupo A" width=100%/></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>GRUPO B</h3>
+					<p><img src="img/GrupoB.png" alt="Grupo B" width=100%/></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>GRUPO C</h3>
+					<p><img src="img/GrupoC.png" alt="Grupo C" width=100%/></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>GRUPO D</h3>
+					<p><img src="img/GrupoD.png" alt="Grupo D" width=100%/></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>GRUPO E</h3>
+					<p><img src="img/GrupoE.png" alt="Grupo E" width=100%/></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>GRUPO F</h3>
+					<p><img src="img/GrupoF.png" alt="Grupo F" width=100%/></p>
+				</div>
+				<div data-role="collapsible">
+					<h3>GRUPO G</h3>
+					<p><img src="img/GrupoG.png" alt="Grupo G" width=100%/></p>
+				</div>
+			</div>
+		</div>
+
+		<div data-role="footer">
+			<h4>&copy; 2016 | Todos los derechos reservados</h4>
+		</div>
+
+		<div data-role="panel" id="botoneraOculta2" data-display="overlay">
+			<ul data-role="listview">
+				<li data-icon="delete"><a href="#" data-rel="close">Cerrar</a></li>
+				<li><a href="#grupos" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Page 3-->
+	<div data-role="page" data-theme="b" id="estadios">
+		<div data-role="header" class="header">
+			<a href="#botoneraOculta3" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+			<h1><img src="img/logo.png" alt="Uefa Champions" width=70%/></h1>
+			<a href="#inicio" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+		</div>
+
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#grupos" data-icon="grid" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-icon="location" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-icon="eye" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-icon="calendar" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+		<div role="main" class="ui-content">
+			<ul data-role="listview" data-inset="true" data-theme="a">
+				<li>
+					<a href="#estadio1" data-rel="popup" data-position-to="window">
+						<img src="img/slide01b.jpg"/>
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum</p>
+					</a>
+				</li>
+				<li>
+					<a href="#estadio2" data-rel="popup" data-position-to="window">
+						<img src="img/slide02b.jpg"/>
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum</p>
+					</a>
+				</li>
+				<li>
+					<a href="#estadio3" data-rel="popup" data-position-to="window">
+						<img src="img/slide03b.jpg"/>
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum</p>
+					</a>
+				</li>
+				<li>
+					<a href="#estadio4" data-rel="popup" data-position-to="window">
+						<img src="img/slide04b.jpg"/>
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum</p>
+					</a>
+				</li>
+				<li>
+					<a href="#estadio5" data-rel="popup" data-position-to="window">
+						<img src="img/slide05b.jpg"/>
+						<h2>Lorem Ipsum</h2>
+						<p>Lorem ipsum</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div data-role="footer">
+			<h4>&copy; 2016 | Todos los derechos reservados</h4>
+		</div>
+
+		<div data-role="panel" id="botoneraOculta3" data-display="overlay">
+			<ul data-role="listview">
+				<li data-icon="delete"><a href="#" data-rel="close">Cerrar</a></li>
+				<li><a href="#grupos" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+			<div data-role="popup" id="estadio1" data-overlay-theme="b">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cerrar</a>
+				<img src="img/slide01.jpg" style="border:10px solid white; margin-left:-10px;"/>
+			</div>
+			<div data-role="popup" id="estadio2" data-overlay-theme="b">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cerrar</a>
+				<img src="img/slide02.jpg" style="border:10px solid white; margin-left:-10px;"/>
+			</div>
+			<div data-role="popup" id="estadio3" data-overlay-theme="b">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cerrar</a>
+				<img src="img/slide03.jpg" style="border:10px solid white; margin-left:-10px;"/>
+			</div>
+			<div data-role="popup" id="estadio4" data-overlay-theme="b">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cerrar</a>
+				<img src="img/slide04.jpg" style="border:10px solid white; margin-left:-10px;"/>
+			</div>
+			<div data-role="popup" id="estadio5" data-overlay-theme="b">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Cerrar</a>
+				<img src="img/slide05.jpg" style="border:10px solid white; margin-left:-10px;"/>
+			</div>
+	</div>
+
+<!-- Page 4-->
+
+	<div data-role="page" data-theme="a" id="galeria">
+		<div data-role="header" class="header" data-theme="b">
+			<a href="#botoneraOculta4" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+			<h1><img src="img/logo.png" alt="Uefa Champions" width=70%/></h1>
+			<a href="#inicio" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+		</div>
+
+		<div data-role="navbar" class="ui-bar-b">
+			<ul>
+				<li><a href="#grupos" data-icon="grid" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-icon="location" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-icon="eye" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-icon="calendar" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+		<div role="main" class="ui-content">
+			<p><img src="img/cuadro01.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro02.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro03.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro04.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro05.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro06.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro07.jpg" width="100%" alt="" /></p>
+			<p><img src="img/cuadro08.jpg" width="100%" alt="" /></p>
+		</div>
+
+		<div data-role="footer" data-theme="b">
+			<h4>&copy; 2016 | Todos los derechos reservados</h4>
+		</div>
+
+		<div data-role="panel" id="botoneraOculta4" data-display="overlay">
+			<ul data-role="listview">
+				<li data-icon="delete"><a href="#" data-rel="close">Cerrar</a></li>
+				<li><a href="#grupos" data-transition="flip">Grupos</a></li>
+				<li><a href="#estadios" data-transition="flip">Estadios</a></li>
+				<li><a href="#galeria" data-transition="flip">Galeria</a></li>
+				<li><a href="#calendario" data-transition="flip">Calendario</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Page 5-->
+
+		<div data-role="page" data-theme="b" id="calendario">
+			<div data-role="header" class="header">
+				<a href="#botoneraOculta5" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+				<h1><img src="img/logo.png" alt="Uefa Champions" width=70%/></h1>
+				<a href="#inicio" data-transition="flow" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>
+			</div>
+
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#grupos" data-icon="grid" data-transition="flip">Grupos</a></li>
+					<li><a href="#estadios" data-icon="location" data-transition="flip">Estadios</a></li>
+					<li><a href="#galeria" data-icon="eye" data-transition="flip">Galeria</a></li>
+					<li><a href="#calendario" data-icon="calendar" data-transition="flip">Calendario</a></li>
+				</ul>
+			</div>
+
+			<div role="main" class="ui-content">
+				<table data-role="table" class="ui-body-a ui-responsive table-stripe">
+					<thead>
+						<tr class="ui-bar-b">
+							<td>GRUPO</td>
+							<td>PARTIDO</td>
+							<td>FECHA</td>
+							<td>HORA</td>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>A</td>
+							<td>Olympiacos VS Atlético Madrid</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>A</td>
+							<td>Juventus VS Malmo</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>B</td>
+							<td>Liverpool FC VS Ludogorets</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>B</td>
+							<td>Real Madrid VS Basel 1893</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>Monaco VS Bayer Leverkusen</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>SL Benfica VS Zenit St. Petersburg</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>Galatasaray VS RSC Anderlech</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>Borussia Dortmund VS Arsenal</td>
+							<td>16 Sept</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>A</td>
+							<td>Malmo VS Olympiacos</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>A</td>
+							<td>Atlético Madrid VS Juventus</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>B</td>
+							<td>Basel 1893 VS Liverpool FC</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>B</td>
+							<td>Ludogorest VS Real Madrid</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>Zenit St. Petersburg VS Monaco</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>Bayer Leverkusen VS SL Benfica</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>Arsenal VS Galatasaray</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>RSC Anderlech VS Borussia Dortmund</td>
+							<td>01 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>A</td>
+							<td>Atlético Madrid VS Malmo</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>A</td>
+							<td>Olympiacos VS Juventus</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>B</td>
+							<td>Ludogorest VS Basel 1893</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>B</td>
+							<td>Liverpool FC VS Real Madrid</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>Bayer Leverkusen VS Zenit St. Petersburg</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>C</td>
+							<td>Monaco VS SL Benfica</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>RSC Anderlech VS Arsenal</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+						<tr>
+							<td>D</td>
+							<td>Galatasaray VS Borussia Dortmund</td>
+							<td>22 Oct</td>
+							<td>12:45</td>
+						</tr>
+					</tbody>
+
+				</table>
+			</div>
+
+			<div data-role="footer">
+				<h4>&copy; 2016 | Todos los derechos reservados</h4>
+			</div>
+
+			<div data-role="panel" id="botoneraOculta5" data-display="overlay">
+				<ul data-role="listview">
+					<li data-icon="delete"><a href="#" data-rel="close">Cerrar</a></li>
+					<li><a href="#grupos" data-transition="flip">Grupos</a></li>
+					<li><a href="#estadios" data-transition="flip">Estadios</a></li>
+					<li><a href="#galeria" data-transition="flip">Galeria</a></li>
+					<li><a href="#calendario" data-transition="flip">Calendario</a></li>
+				</ul>
+			</div>
+
+		</div>
 </body>
 </html>
