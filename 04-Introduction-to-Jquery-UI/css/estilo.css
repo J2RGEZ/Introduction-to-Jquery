@@ -16,6 +16,10 @@
     background: rgba(0,0,55,1);
  }
 
+ #dialog  {
+   display: none;
+ }
+
  header h1{
     color:white;
     padding:10px;
@@ -115,14 +119,14 @@ header input{
         padding: 5px;
         float: left;
         width:31%;
-        background:#DCE7EF;  
+        background:#DCE7EF;
         border-radius:5px;
     }
 
 }
 
 /*--Medium Desktop--*/
-    
+
 @media (max-width:1199px) and (min-width:769px){
 
     .bloque{
@@ -131,14 +135,14 @@ header input{
         padding: 5px;
         float: left;
         width:47%;
-        background:#DCE7EF;  
+        background:#DCE7EF;
         border-radius:5px;
     }
 
 }
 
 /*--Tablets--*/
-    
+
 @media (max-width:768px){
 
 .bloque{
@@ -147,11 +151,8 @@ header input{
         padding: 5px;
         float: left;
         width:95%;
-        background:#DCE7EF;  
+        background:#DCE7EF;
         border-radius:5px;
     }
 
 }
-
-
-

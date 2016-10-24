@@ -10,12 +10,18 @@
 	<title>Administrador de Tareas</title>
 
 	<link rel="stylesheet" href="css/estilo.css">
-  <link rel="stylesheet" href="css/jquery-ui.min.js">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
   <script src="js/jquery-1.11.1.min.js" charset="utf-8"></script>
   <script src="js/jquery-ui.min.js" charset="utf-8"></script>
 </head>
 
 <body>
+
+<div id="dialog" title="Alerta">
+	<p>
+		Por favor, rellene los campos del formulario.
+	</p>
+</div>
 
 <header>
 
@@ -26,8 +32,8 @@
   <form id="agregar">
 
     <input type="text" placeholder="Fecha de la tarea" id="fecha1" required>
-    <input type="text" placeholder="Título de la tarea" maxlength="20" required>
-    <textarea type="text" placeholder="Descripción de la tarea" maxlength="56" required></textarea>
+    <input type="text" placeholder="Título de la tarea" id="tituloTarea" maxlength="20" required>
+    <textarea type="text" placeholder="Descripción de la tarea" id="descripcionTarea" maxlength="56" required></textarea>
     <input type="submit" value="GUARDAR TAREA" id="guardar">
 
   </form>
@@ -35,7 +41,7 @@
   <form id="buscarTarea">
 
     <input type="text" placeholder="Buscar Tarea por fecha" id="fecha2" required>
-    <input type="submit" value="BUSCAR TAREA">
+    <input type="submit" value="BUSCAR TAREA" id="buscar">
 
   </form>
 
